@@ -1,0 +1,1050 @@
+/* --------------------------iview样式重置 START--------------------------- */
+
+.form-item-input-css .ivu-input,
+.form-item-input-css .ivu-input-number,
+.checkbox-list-wrap-style .ivu-input,
+.radio-list-wrap-style .ivu-input,
+.detail-item-input-css .ivu-input,
+.form-item-input-css .ivu-select-single .ivu-select-selection,
+.form-item-input-css .ivu-select-single .ivu-select-selection,
+.form-item-input-css .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.form-item-input-css .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  height          : 22px;
+  line-height     : 22px;
+  border          : none;
+  box-shadow      : none;
+  border-radius   : 0;
+  border-bottom   : 1px solid #000000;
+  background-color: transparent;
+  transition      : none;
+  outline         : none;
+}
+
+.form-item-input-css .ivu-input-number-handler-wrap {
+  display: none;
+}
+
+.form-item-input-css .ivu-input:focus,
+.form-item-input-css .ivu-input-number:focus,
+.radio-list-wrap-style .ivu-input:focus,
+.checkbox-list-wrap-style .ivu-input:focus,
+.detail-item-input-css .ivu-input:focus {
+  box-shadow: none;
+}
+
+.form-item-input-css .ivu-input-prefix,
+.form-item-input-css .ivu-input-suffix,
+.form-item-input-css .ivu-input-icon {
+  width: 22px;
+}
+
+.form-item-input-css .ivu-input-prefix i,
+.form-item-input-css .ivu-input-suffix i,
+.form-item-input-css .ivu-input-icon,
+.radio-list-wrap-style .ivu-input-prefix i,
+.radio-list-wrap-style .ivu-input-suffix i,
+.radio-list-wrap-style .ivu-input-icon,
+.checkbox-list-wrap-style .ivu-input-prefix i,
+.checkbox-list-wrap-style .ivu-input-suffix i,
+.checkbox-list-wrap-style .ivu-input-icon,
+.detail-item-input-css .ivu-input-prefix i,
+.detail-item-input-css .ivu-input-suffix i,
+.detail-item-input-css .ivu-input-icon {
+  line-height: 22px;
+  height     : 22px;
+}
+
+.checkbox-list-wrap-style .ivu-checkbox-wrapper+span,
+.checkbox-list-wrap-style .ivu-checkbox+span,
+.checkbox-list-wrap-style .ivu-checkbox-wrapper,
+.radio-list-wrap-style .ivu-radio-wrapper,
+.radio-list-wrap-style span.ivu-radio+* {
+  margin: 0;
+}
+
+.TextWithDate-list-wrap-css .ivu-btn,
+.TextWithDate-list-wrap-css .ivu-btn:active,
+.TextWithDate-list-wrap-css .ivu-btn:focus,
+.DrugList-wrap-css .ivu-btn,
+.DrugList-wrap-css .ivu-btn:active,
+.DrugList-wrap-css .ivu-btn:focus {
+  padding   : 0 5px;
+  outline   : none;
+  border    : none;
+  box-shadow: none;
+}
+
+.TextWithDate-list-wrap-css .ivu-btn:hover,
+.DrugList-wrap-css .ivu-btn:hover {
+  color           : #333333;
+  background-color: transparent;
+}
+
+.ivu-input[disabled],
+fieldset[disabled] .ivu-input {
+  background-color: #f3f3f3;
+  color           : #999999;
+}
+
+// .ivu-tabs{
+//     overflow: visible;
+// }
+
+/* --------------------------iview样式重置 END--------------------------- */
+.search-wrap-css {
+  display       : inline-block;
+  font-size     : 0;
+  vertical-align: top;
+  margin-bottom : 10px;
+}
+
+.search-wrap-css .search-wrap-css {
+  margin-bottom: 0;
+}
+
+.search-wrap-css .ivu-form-item {
+  margin-right : 0;
+  margin-bottom: 0;
+}
+
+.search-wrap-css .form-item-wrap-css:nth-child(1) {
+  padding-left: 0;
+}
+
+.required-tag-css {
+  color    : red;
+  font-size: 12px;
+}
+
+.warning-text-css {
+  color         : #ff0000;
+  text-align    : left;
+  font-size     : 12px;
+  white-space   : nowrap;
+  display       : block;
+  // position   : absolute;
+  // left       : 0;
+  // top        : 100%;
+}
+
+.success-text-css {
+  color     : #41b883;
+  text-align: left;
+  font-size : 12px;
+  position  : absolute;
+  left      : 0;
+  top       : 100%;
+}
+
+// .dangerous-warning-css {
+//     box-sizing: border-box;
+//     border    : 1px solid #ff0000;
+// }
+.dangerous-warning-text-css{
+  color: #ff0000 !important;
+}
+.dangerous-warning-css .ivu-input,
+.dangerous-warning-css .ivu-select-selection {
+  border-color: #ff0000 !important;
+}
+
+/* 输入框样式 */
+.form-item-textarea-css,
+.form-item-wrap-css {
+  display       : inline-block;
+  font-size     : 0;
+  padding-left  : 5px;
+  vertical-align: middle;
+  position      : relative;
+}
+
+.select-division-css .vue-treeselect__menu {
+  height: 300px !important;
+}
+.select-division-css .vue-treeselect__multi-value{
+  height: auto;
+}
+.form-item-textarea-css {
+  padding-left: 0;
+}
+
+.form-item-wrap-css .tree-select-wrap-css {
+  width           : 100%;
+  background-color: #ffffff;
+  padding         : 8px 5px;
+  box-shadow      : 0 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius   : 4px;
+  box-sizing      : border-box;
+  position        : absolute;
+  left            : 5px;
+  top             : 42px;
+  z-index         : 900;
+}
+
+.form-item-textarea-css .valueText {
+  width        : 100%;
+  min-height   : 60px;
+  display      : inline-block;
+  border       : 1px solid #dddee1;
+  border-radius: 4px;
+  padding      : 4px 7px;
+  font-size    : 14px;
+  box-sizing   : border-box;
+}
+
+.form-item-label-css {
+  text-align    : right;
+  font-size     : 12px;
+  line-height   : 22px;
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.form-item-ivu-input-css,
+.form-item-input-css {
+  display       : inline-block;
+  font-size     : 0;
+  position      : relative;
+  vertical-align: middle;
+}
+
+.form-item-ivu-input-css>div,
+.form-item-input-css>div {
+  display  : inline-block;
+  position : relative;
+  font-size: 12px;
+}
+
+.form-item-ivu-input-css>div .ivu-input-wrapper,
+.form-item-input-css>div .ivu-input-wrapper {
+  display: inline-block;
+}
+
+.form-item-textarea-css textarea.ivu-input {
+  min-height: 50px;
+  font-size : 12px;
+}
+
+.form-item-ivu-input-css>div .modifier-css,
+.form-item-input-css>div .modifier-css {
+  display       : inline-block;
+  font-size     : 12px;
+  vertical-align: middle;
+}
+
+.form-item-ivu-input-css .valueText,
+.form-item-input-css .valueText {
+  // width          : 200px;
+  height            : 22px;
+  line-height       : 22px;
+  font-size         : 12px;
+  text-align        : center;
+  // padding-left   :7px;
+  display           : inline-block;
+  vertical-align    : middle;
+  text-overflow     : ellipsis;
+  overflow          : hidden;
+  white-space       : nowrap;
+  border-bottom     : 1px solid #000000;
+}
+
+.form-item-input-css .ivu-select-selection,
+.form-item-input-css .ivu-input {
+  border       : none;
+  border-radius: 0;
+  outline      : none;
+  box-shadow   : none;
+  padding      : 0 22px 0 7px;
+  border-bottom: 1px solid #000000;
+  text-overflow: ellipsis;
+  overflow     : hidden;
+  white-space  : nowrap;
+}
+
+
+/* SquareList组件样式 */
+
+.chequer-list-wrap-css,
+.chequer-list-css,
+.chequer-box-css {
+  display       : inline-block;
+  font-size     : 0;
+  vertical-align: middle;
+  position      : relative;
+}
+
+.right-center-css {
+  position : absolute;
+  right    : 0;
+  top      : 50%;
+  transform: translateY(-50%);
+}
+
+.chequer-list-wrap-css .form-item-label-css {
+  text-align    : right;
+  font-size     : 12px;
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.chequer-list-css .chequer-item-css {
+  min-width     : 16px;
+  height        : 16px;
+  font-size     : 10px;
+  display       : inline-block;
+  text-align    : center;
+  line-height   : 16px;
+  font-style    : normal;
+  border        : 1px solid #cccccc;
+  margin        : 0 2px;
+  vertical-align: middle;
+}
+
+/* BizRadioWithMemo组件样式 */
+
+.checkbox-list-wrap-style,
+.radio-list-wrap-style,
+.ivu-checkbox-list-wrap-style,
+.ivu-radio-list-wrap-style {
+  font-size   : 0;
+  text-align  : left;
+  display     : block;
+  position    : relative;
+  padding-left: 5px;
+}
+
+.checkbox-list-wrap-style .checkbox-list-style,
+.radio-list-wrap-style .radio-list-style,
+.ivu-checkbox-list-wrap-style .checkbox-list-style,
+.ivu-radio-list-wrap-style .radio-list-style {
+  font-size : 0;
+  text-align: left;
+  display   : inline-block;
+}
+
+.radio-list-wrap-style .radio-list-style {
+  width        : 100%;
+  padding-right: 20px;
+}
+
+.checkbox-list-style .form-item-label-css,
+.radio-list-style .form-item-label-css {
+  text-align    : right;
+  font-size     : 12px;
+  line-height   : 22px;
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style,
+.radio-list-wrap-style .radio-item-style {
+  font-size: 12px;
+  display  : inline-block;
+  margin   : 1px;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .form-item-wrap-css,
+.radio-list-wrap-style .radio-item-style .form-item-wrap-css {
+  margin: 0;
+}
+
+.radio-list-wrap-style .radio-item-style .TextWithDate-wrap-css {
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .labelText,
+.radio-list-wrap-style .radio-item-style .labelText {
+  padding       : 0 6px;
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .valueText,
+.radio-list-wrap-style .radio-item-style .valueText {
+  min-width     : 160px;
+  height        : 22px;
+  line-height   : 22px;
+  font-size     : 12px;
+  display       : inline-block;
+  vertical-align: middle;
+  text-align    : center;
+  border-bottom : 1px solid #dcdee2;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .ivu-checkbox,
+.radio-list-wrap-style .radio-item-style .ivu-radio {
+  display: none;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .ivu-checkbox-wrapper-checked .labelText,
+.radio-list-wrap-style .radio-item-style .ivu-radio-wrapper-checked .labelText,
+.checkbox-list-wrap-style .checkbox-item-style .active-labelText,
+.radio-list-wrap-style .radio-item-style .active-labelText {
+  background-color: #2d8cf0;
+  color           : #ffffff;
+}
+
+.radio-list-wrap-style .chequer-list-css {
+  display   : inline-block;
+  text-align: right;
+  position  : absolute;
+  right     : 0;
+  top       : 50%;
+  transform : translateY(-50%);
+}
+
+.checkbox-list-style .checkbox-list-css,
+.radio-list-style .radio-list-css {
+  font-size     : 0;
+  line-height   : 22px;
+  display       : inline-block;
+  vertical-align: middle;
+  position      : relative;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .ivu-input-wrapper,
+.radio-list-wrap-style .radio-item-style .ivu-input-wrapper {
+  width: auto;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style .ivu-radio-wrapper,
+.radio-list-wrap-style .radio-item-style .ivu-radio-wrapper {
+  margin-right: 0;
+}
+
+.TextWithDate-list-wrap-css,
+.TextWithDate-list-wrap-css .TextWithDate-list-css {
+  display       : inline-block;
+  vertical-align: middle;
+  font-size     : 0;
+}
+
+.TextWithDate-list-wrap-css .TextWithDate-label-css {
+  text-align    : right;
+  font-size     : 12px;
+  line-height   : 22px;
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.TextWithDate-item-css {
+  display    : block;
+  position   : relative;
+  padding-top: 3px;
+}
+
+.icon-delete-css {
+  color   : #ff0000;
+  position: absolute;
+  right   : -12px;
+  top     : -3px;
+  z-index : 3;
+  cursor  : pointer;
+}
+
+.icon-add-btn-css {
+  vertical-align: top;
+  margin-left   : 10px;
+  cursor        : pointer;
+  margin-top    : 3px;
+}
+
+.checkbox-list-wrap-style .checkbox-item-style /deep/ .ivu-checkbox-wrapper,
+.TextWithDate-list-wrap-css .TextWithDate-item-css /deep/ .form-item-css {
+  margin-bottom: 0;
+}
+
+.TextWithDate-list-wrap-css /deep/ .ivu-input,
+.TextWithDate-list-wrap-css /deep/ .ivu-input-prefix i,
+.TextWithDate-list-wrap-css /deep/ .ivu-input-suffix i {
+  height     : 22px;
+  line-height: 22px;
+}
+
+.DrugList-wrap-css {
+  width     : 100%;
+  text-align: left;
+  font-size : 0;
+}
+
+.DrugList-wrap-css .DrugList-list-css {
+  display: inline-block;
+}
+
+.DrugList-wrap-css .DrugList-list-css .DrugList-item-css {
+  width   : 100%;
+  display : block;
+  position: relative;
+}
+
+/* FamilyDisease组件样式 */
+
+.disefamily-style {
+  width    : 100%;
+  position : relative;
+  font-size: 0;
+  padding  : 0 0 4px;
+}
+
+.disefamily-style .chequer-list-css {
+  position      : relative;
+  display       : inline-block;
+  vertical-align: middle;
+  top           : 0;
+  transform     : none;
+}
+
+.disefamily-style .member-css {
+  width     : 50%;
+  // padding: 4px 0;
+  text-align: left;
+  margin    : 0;
+  font-size : 12px;
+  display   : inline-block;
+  box-sizing: border-box;
+  position  : relative;
+}
+
+.disefamily-style .member-css label {
+  display       : inline-block;
+  vertical-align: middle;
+  width         : 72px;
+  padding       : 4px 0;
+  text-align    : right;
+  cursor        : pointer;
+}
+
+.disefamily-style .member-css .member-checked-css {
+  background-color: #2d8cf0;
+  color           : #ffffff;
+}
+
+.disefamily-style .chequer-list-wrap-css .chequer-list-css {
+  max-width: 630px;
+  display  : inline-block;
+  font-size: 0;
+}
+
+.disefamily-style .checkbox-list-wrap-style {
+  padding-right: 0 !important;
+}
+
+/* 格子列表样式 */
+
+.bloodtype-item-css .chequer-break-css,
+.chequer-list-css .chequer-break-css {
+  display       : inline-block;
+  font-style    : normal;
+  font-size     : 16px;
+  line-height   : 22px;
+  color         : #cccccc;
+  vertical-align: middle;
+}
+
+.chequer-list-wrap-css .chequer-list-css .form-item-input-css {
+  margin-bottom : 0;
+  vertical-align: middle;
+}
+
+.checkbox-list-wrap-style .chequer-list-css .chequer-box-css {
+  margin: 8px 0;
+}
+
+.checkbox-list-wrap-style .square-list-wrap-css {
+  text-align: right;
+}
+
+.checkbox-list-wrap-style .square-list-wrap-css .chequer-box-css {
+  margin: 0;
+}
+
+/* SquareOfFormCode组件样式 */
+
+.chequer-list-date-wrap-css .form-item-wrap-css {
+  width   : 100%;
+  height  : 100%;
+  position: absolute;
+  left    : 0;
+  top     : 0;
+  z-index : 4;
+}
+
+.chequer-list-date-wrap-css .ivu-input-wrapper {
+  width: 100% !important;
+}
+
+.chequer-list-date-wrap-css .ivu-input-wrapper .ivu-input {
+  cursor          : pointer;
+  background-color: transparent;
+  font-size       : 0;
+  border          : none;
+}
+
+.chequer-list-date-wrap-css .ivu-input-wrapper .ivu-input:focus {
+  box-shadow: none;
+}
+
+.chequer-list-date-wrap-css .ivu-input-wrapper .ivu-input-prefix i,
+.chequer-list-date-wrap-css .ivu-input-wrapper .ivu-input-suffix i {
+  font-size: 0;
+  display  : none;
+}
+
+/* BloodType血型组件 */
+
+.bloodtype-item-css .form-item-css {
+  width        : 100%;
+  display      : block;
+  text-align   : left;
+  position     : relative;
+  padding-right: 70px;
+  font-size: 0;
+  box-sizing   : border-box;
+}
+
+.bloodtype-item-css .form-item-css .radio-list-wrap-style {
+  display    : inline-block;
+  white-space: nowrap;
+  margin     : 0 5px;
+}
+
+.bloodtype-item-css .form-item-css .radio-list-wrap-style:nth-child(1) .radio-list-style {
+  padding-right: 0;
+}
+
+/* InputOfTooth组件样式*/
+
+.tooth-input-wrap-css {
+  width           : 88px;
+  height          : 40px;
+  display         : inline-block;
+  vertical-align  : middle;
+  overflow        : hidden;
+  font-size       : 0;
+  background-color: transparent;
+  position        : relative;
+}
+
+.tooth-input-wrap-css:before {
+  width     : 100%;
+  height    : 1px;
+  border-top: 1px solid #afafaf;
+  display   : block;
+  content   : '';
+  position  : absolute;
+  left      : 0;
+  top       : 50%;
+  margin-top: -1px;
+}
+
+.tooth-input-wrap-css:after {
+  width      : 1px;
+  height     : 100%;
+  border-left: 1px solid #afafaf;
+  display    : block;
+  content    : '';
+  position   : absolute;
+  left       : 50%;
+  top        : 0;
+  margin-top : -1px;
+}
+
+.tooth-input-wrap-css .ivu-input-wrapper,
+.tooth-input-wrap-css .valueText {
+  width    : 50% !important;
+  min-width: auto !important;
+  border   : none !important;
+}
+
+.tooth-input-wrap-css>div {
+  font-size: 0;
+}
+
+.tooth-input-wrap-css .valueText,
+.tooth-input-wrap-css .ivu-input {
+  height        : 20px;
+  line-height   : 20px;
+  text-align    : center;
+  display       : inline-block;
+  vertical-align: top;
+  border        : none;
+  border-radius : 0;
+  box-shadow    : none;
+  font-size     : 12px;
+  background    : none;
+  padding       : 0 6px;
+}
+
+/* 问题列表样式 */
+
+.question-list-wrap-css {
+  font-size       : 0;
+  text-align      : left;
+  position        : relative;
+  background-color: #ffffff;
+  margin          : 0 auto;
+  box-sizing      : border-box;
+}
+
+.question-list-wrap-css .question-list-item-css {
+  width         : 100%;
+  font-size     : 0;
+  text-align    : left;
+  display       : block;
+  padding-bottom: 8px;
+}
+
+.question-list-wrap-css .question-title-css {
+  font-size    : 16px;
+  margin-bottom: 8px;
+}
+
+.question-list-wrap-css .question-sub-title-css {
+  font-size    : 14px;
+  font-weight  : normal;
+  margin-bottom: 8px;
+}
+
+.question-list-wrap-css .question-item-title-css {
+  font-size  : 12px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.question-list-wrap-css .question-item-img-css {
+  width : 160px;
+  margin: 5px 0 5px 10px;
+}
+
+.question-list-item-css .answer-list-css {
+  font-size  : 0;
+  display    : block;
+  margin-left: 10px;
+  position   : relative;
+}
+
+.question-list-item-css .answer-list-css .answer-item-css {
+  font-size: 12px;
+  display  : inline-block;
+  margin   : 0 6px;
+}
+
+.question-list-item-css .question-item-thumbnail-css {
+  width    : 100%;
+  position : relative;
+  padding  : 5px 0 10px;
+  font-size: 0;
+}
+
+.question-list-item-css .question-item-thumbnail-css img {
+  max-width: 300px;
+}
+
+.question-list-wrap-css .btn-group-css {
+  width    : 100%;
+  padding  : 10px;
+  font-size: 0;
+}
+
+.question-list-wrap-css .btn-group-css .ivu-btn {
+  margin: 0 6px;
+}
+
+.question-list-wrap-css .btn-group-css .turn-page-css {
+  width    : 120px;
+  margin   : 0 6px;
+  display  : inline-block;
+  font-size: 0;
+}
+
+.question-list-wrap-css .btn-group-css .turn-page-css .ivu-input-number,
+.question-list-wrap-css .btn-group-css .turn-page-css .ivu-btn {
+  width        : 50%;
+  font-size    : 12px;
+  border-radius: 4px 0 0 4px;
+  margin       : 0;
+}
+
+.question-list-wrap-css .btn-group-css .turn-page-css .ivu-btn {
+  border-radius: 0 4px 4px 0;
+}
+
+.question-list-wrap-css .btn-group-css .total-prop-text-css {
+  font-size     : 12px;
+  display       : inline-block;
+  vertical-align: middle;
+  margin        : 0 6px;
+}
+
+/* ChooseAddress(选择地址)组件样式 */
+
+.choose-address-item-css {
+  width     : 100%;
+  text-align: left;
+}
+
+.city-list-wrap-css {
+  position   : relative;
+  white-space: nowrap;
+}
+
+.city-list-wrap-css .shadow {
+  position: fixed;
+  left    : 0;
+  top     : 0;
+  right   : 0;
+  bottom  : 0;
+  z-index : 3;
+}
+
+.city-list-css {
+  font-size    : 0;
+  text-align   : left;
+  white-space  : nowrap;
+  position     : absolute;
+  left         : 0;
+  top          : -340px;
+  z-index      : 4;
+  border-radius: 10px;
+  overflow     : hidden;
+  box-shadow   : 0 0 10px #dfdfdf;
+}
+
+.city-list-css .city-list-item-css {
+  height          : 300px;
+  min-width       : 120px;
+  overflow-y      : auto;
+  display         : inline-block;
+  background-color: #ffffff;
+  border-right    : 1px solid #dfdfdf;
+  font-size       : 12px;
+  box-sizing      : border-box;
+}
+
+.city-list-css .city-list-item-css a {
+  display : block;
+  padding : 8px 16px;
+  color   : #333333;
+  position: relative;
+}
+
+.city-list-css .city-list-item-css .city-item-checked-css {
+  color           : #2d8cf0;
+  background-color: #efefee;
+}
+
+.city-list-css .city-list-item-css .right-icon-css {
+  font-size : 12px;
+  position  : absolute;
+  right     : 8px;
+  top       : 50%;
+  margin-top: -6px;
+}
+
+.choose-address-item-css .detail-item-input-css {
+  display    : inline-block;
+  font-size  : 0;
+  margin-left: 20px;
+}
+
+.choose-address-item-css .detail-item-input-css .ivu-input-wrapper {
+  width         : 240px;
+  vertical-align: auto;
+}
+
+.ani-rotate {
+  animation: ani-rotate 1s linear infinite;
+}
+
+@keyframes ani-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* BizRadioWithTextDate组件样式 */
+
+.BizRadioWithTextDate-css {
+  width     : 100%;
+  font-size : 0;
+  text-align: left;
+  position  : relative;
+}
+
+.BizRadioWithTextDate-css .radio-list-wrap-style,
+.BizRadioWithTextDate-css .TextWithDate-list-wrap-css {
+  display       : inline-block;
+  vertical-align: top;
+  font-size     : 0;
+}
+
+.BizRadioWithTextDate-css .radio-list-wrap-style .radio-list-style {
+  padding-right: 0;
+}
+
+.BizRadioWithTextDate-css .chequer-list-css {
+  display   : inline-block;
+  text-align: right;
+  position  : absolute;
+  right     : 0;
+  top       : 6px;
+}
+
+.AuxiliaryInspect-wrap-css {
+  width  : 100%;
+  display: block;
+}
+
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-label-css {
+  text-align    : right;
+  font-size     : 12px;
+  line-height   : 22px;
+  display       : inline-block;
+  vertical-align: middle;
+}
+
+.AuxiliaryInspect-body-css {
+  width     : 100%;
+  padding   : 10px 10px 0 10px;
+  text-align: left;
+}
+
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-list-css {
+  width  : 100%;
+  display: block;
+}
+
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-item-css {
+  width   : 100%;
+  margin  : 14px 0;
+  border  : 1px solid #dfdfdf;
+  padding : 14px 10px 10px 10px;
+  position: relative;
+}
+
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-item-css .AuxiliaryInspect-item-title-css {
+  padding         : 0 6px;
+  background-color: #ffffff;
+  display         : inline-block;
+  font-size       : 0;
+  line-height     : 16px;
+  position        : absolute;
+  left            : 10px;
+  top             : -8px;
+}
+
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-item-css .title-text-css,
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-item-css .icon-delete-css {
+  display       : inline-block;
+  font-size     : 12px;
+  cursor        : pointer;
+  vertical-align: middle;
+  position      : static;
+}
+
+.AuxiliaryInspect-wrap-css .AuxiliaryInspect-item-css .icon-delete-css {
+  margin-left: 8px;
+}
+
+// 血压组件
+.BloodPressure-wrap-css {
+  // width  : 280px;
+  display: inline-block;
+}
+
+.BloodPressure-wrap-css .BloodPressure-item-label-css {
+  text-align    : right;
+  font-size     : 12px;
+  line-height   : 22px;
+  display       : inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.BloodPressure-wrap-css .BloodPressure-item-input-css {
+  width         : auto;
+  display       : inline-block;
+  vertical-align: middle;
+  border        : none;
+  margin-left   : -6px;
+}
+
+.BloodPressure-wrap-css .suffix-text-csss,
+.BloodPressure-wrap-css .input-break-css {
+  display       : inline-block;
+  font-style    : normal;
+  font-size     : 14px;
+  line-height   : 22px;
+  vertical-align: middle;
+}
+
+// 头部患者基本信息概要
+.header-summary-css {
+  min-height     : 36px;
+  color          : #000;
+  display        : flex;
+  justify-content: space-around;
+  font-weight    : bold;
+  text-align     : center;
+  line-height    : 36px;
+  font-size      : 0;
+}
+
+.header-summary-css span {
+  // margin:0 25px;
+  font-size: 14px;
+  display  : inline-block;
+}
+
+// BizList组件样式
+.form-table-wrap-css {
+  width      : 100%;
+  display    : block;
+  font-weight: '微软雅黑';
+}
+
+.form-table-wrap-css .form-table-css {
+  width          : 100%;
+  border-collapse: collapse;
+  border         : 1px solid #e7e4e4;
+}
+
+.form-table-wrap-css .form-table-css .form-table-header-css {
+  background-color: #f8f8f9;
+}
+
+.form-table-wrap-css .form-table-css td {
+  min-height   : 22px;
+  line-height  : 22px;
+  font-size    : 14px;
+  padding-left : 8px;
+  cursor       : pointer;
+  border-bottom: 1px solid #e7e4e4;
+}
+.form-table-wrap-css .form-table-css td .text-css{
+  width: 100%;
+  display: block;
+  word-break: break-all;
+  line-height: 22px;
+}
+.form-table-wrap-css .form-table-css .operate-button-css {
+  margin-right: 10px;
+}
+
+.form-table-wrap-css .form-table-css .operate-button-css:last-child {
+  margin-right: 0;
+}
+
+.form-table-wrap-css .no-more-data-css {
+  width        : 100%;
+  line-height  : 36px;
+  font-size    : 14px;
+  border-left  : 1px solid #e7e4e4;
+  border-bottom: 1px solid #e7e4e4;
+  border-right : 1px solid #e7e4e4;
+}
